@@ -8,7 +8,7 @@
    delivery locations and print the result for further analysis.
 
 I tried to solve the problem using O(n) time complexity, 
-but unfortunately I ended up solving it using O(n^2) 
+but unfortunately I ended up solving it using O(m*n) 
 time complexity.
 
 */
@@ -77,3 +77,9 @@ function assignDrivers(driverList, deliveryList) {
 
 // Calling the function
 assignDrivers(driverList, deliveryList);
+
+// Output
+
+// Driver Driver 1 assigned to delivery location at (39.7392, -104.9903)
+// Driver Driver 2 assigned to delivery location at (32.7157, -117.1611)
+// Driver Driver 3 assigned to delivery location at (37.7749, -122.4194)
